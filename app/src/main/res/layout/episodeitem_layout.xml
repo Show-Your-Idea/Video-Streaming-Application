@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/episode_background"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:foreground="?attr/selectableItemBackgroundBorderless"
+    android:focusable="true"
+    android:clickable="true">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="6dp">
+
+        <ImageView
+            android:id="@+id/episode_thumbnail"
+            android:layout_width="100dp"
+            android:layout_height="65dp"
+            android:src="@color/white"/>
+
+    </com.google.android.material.card.MaterialCardView>
+    
+    <TextView
+        android:id="@+id/episode_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/episodeString"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:maxLines="1"
+        android:ellipsize="end"/>
+
+</LinearLayout>

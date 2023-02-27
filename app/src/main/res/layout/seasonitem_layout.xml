@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingEnd="7dp">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/season_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="0dp"
+        android:foreground="?attr/selectableItemBackground"
+        android:focusable="true"
+        android:clickable="true"
+        app:cardBackgroundColor="@color/black_111"
+        app:cardCornerRadius="7dp"
+        app:strokeColor="@color/white"
+        app:strokeWidth="2dp"
+        app:cardElevation="0dp">
+
+        <TextView
+            android:id="@+id/season_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/seasonString"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"
+            android:layout_marginStart="21dp"
+            android:layout_marginEnd="21dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

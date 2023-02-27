@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">StreamingApplication</string>
+    <string name="seasonString">%d기</string>
+    <string name="episodeString">나의 히어로 아카데미아 %d기 %d화</string>
+</resources>
